@@ -2,524 +2,205 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="my portfolio website to showcase the work I have done so far, the services I provide and all my professionals life.">
-  <title>Nishi Tiwari</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishi Tiwari</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-   <header class="header"> 
-    <!-- <div class="container"><a href="#" class="navbar-brand">Hello World &lt; / &gt;</a>
-      <button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation"
-        class="navbar-toggler collapsed">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="responsive-navbar-nav">
-        <div class="me-auto navbar-nav"></div>
-        <div class="navbar-nav"><a aria-current="page" class="sc-gsDKAQ hDHywr navbar__link navbar__link--active"
-            theme="[object Object]" 
-        </div>  -->
+
+    <!-- NAVBAR SECTION -->
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-          <ul class="navbar-lists">
-            <li><a class="navbar-link home-link" href="#">Home</a></li>
-            <li><a class="navbar-link about-link" href="#biodata-section">About</a></li>
-            <li><a class="navbar-link skills-link" href="#skills-section">Skills</a></li>
-            <li><a class="navbar-link resume-link" href="#resume-section">Education</a></li>
-            <li><a class="navbar-link projects-link" href="#portfolio-section">Projects</a></li>
-            <li><a class="navbar-link portfolio-link" href="#portfolio-section">Resume</a></li>
-            </li>
-          </ul>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
+    </header>
 
-        <div class="mobile-navbar-btn">
-          <ion-icon class="mobile-nav-icon" name="menu-outline" class="mobile-nav-icon"></ion-icon>
-
-          <ion-icon class="mobile-nav-icon" name="close-outline" class="mobile-nav-icon"></ion-icon>
-        </div>
-  </header>
-
-
-
-
-  <!-- ======================================== 
-          Our Main Hero Section Start  
-    ========================================  -->
-  <main>
-    <section class="section-hero section" >
-      <div class="section-hero-data">
-        <p class="hero-top-data">Hi there!</p>
-        <h1 class="hero-heading">Nishi Tiwari</h1>
-        <div class="container grid grid-two-col">
-        <a class="btn btn-primary btn-lg btn-floating" href="#!"
-        role="button"><i class="fab fa-linkedin"></i></a>
-        <a class="btn btn-primary btn-lg btn-floating" href="#!"
-        role="button"><i class="fab fa-github"></i></a>
-        <!-- <a class="btn btn-primary btn-lg btn-floating" href="#!"
-        role="button"><i class="fab fa-mail"></i></a> -->
-        </div>
-     <p>
-      <br>
-      Check out my Fiverr Profile!
-      <br>
-     </p>
-        <div>
-          <br>
-          <a href="https://www.fiverr.com/anuj5195?up_rollout=true" target="_blank" class="btn hireme-btn">Fiverr</a>
-        </div>
-      </div>
-
-      <div class="section-hero-image">
-      </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ======================================== 
-          About Section Start  
-    ========================================  -->
-  <section class="section-biodata section" id="biodata-section">
-    <div class="container grid grid-two-col">
-      <div class="bio-image">
-        <img src="images/lazy2.jpg" alt="profile image" />
-      </div>
-      <div class="bio-data">
-        <h2 class="common-heading">About me</h2>
-        <p>
-          Hey, I am Nishi from Mumbai, India. I am pursuing my bachelor's in computer applications.
-I work as a Virtual Assistant for Authors and help them with SMM, Market research, Newsletters, and helping them find the right audience. 
-        </p>
-        <br />
-        <p>
-          Growing my professional community and learning from other professionals in my niche. 
-          I am passionate about programming, and I am currently learning DSA.
-
-        </p>
-  </section>
-
-  <!-- ======================================== 
-        Portfolio works Section Start  
-    ========================================  -->
-  <section class="section-portfolio section " id="portfolio-section">
-    <div class="container grid grid-two-col">
-      <h2 class="common-heading">Projects</h2>
-    </div>
-    <div class="p-btns">
-      <!-- <button class="btn p-btn " data-btn-num="1">Websites</button>
-    </div> -->
-      <div class="container grid grid-four-col portfolio-images">
-        <div class="img-ovelay p-btn--1">
-          <!-- <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " /> -->
-          <div class="overlay">
-            <a href="#" target="_blank" class="common-heading">Project 1</a>
-          </div>
-        </div>
-        <div class="img-ovelay p-btn--3">
-          <!-- <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " /> -->
-          <div class="overlay">
-            <a href="#" target="_blank" class="common-heading">Project 2</a>
-        </div>
-      </div>
-      <div class="img-ovelay p-btn--3">
-        <!-- <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " /> -->
-        <div class="overlay">
-          <a href="#" target="_blank" class="common-heading">Project 2</a>
-      </div>
-    </div>
-    <div class="img-ovelay p-btn--3">
-      <!-- <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " /> -->
-      <div class="overlay">
-        <a href="#" target="_blank" class="common-heading">Project 2</a>
-    </div>
-  </div>
-      </div>
-  </section>
-
-    <!-- ======================================== 
-          Skills Section Start  
-    ========================================  -->
-    <section class="section-skills section " id="skills-section">
-      <div class="container">
-      <h2 class="common-heading">Skills</h2>
-        <div class="container grid grid-three-col">
-      </div>
-      <div class="container">
-        <div class="skills-box">
-          <ion-icon class="skills-icon" name="desktop-outline"></ion-icon>
-          <h3>Front-end web development</h3>
-          <p>
-            “I have a decent command on HTML & CSS and have an indermrdiate to adcance knowledge about Javascript with some basic understanding of React”
-          </p>
-          </div>
-          <div class="skills-box">
-            <ion-icon class="skills-icon" name="desktop-outline"></ion-icon>
-            <h3>Front-end web development</h3>
-            <p>
-              “I have a decent command on HTML & CSS and have an indermrdiate to adcance knowledge about Javascript with some basic understanding of React”
+    <!-- HOME SECTION  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nishi Tiwari</h1>
+            <h3>And I'm a <span class="multiple-text">Front-end Developer</span></h3>
+            <p>I am a third-year student at the Sharma College, Mumbai, and I am currently pursuing
+                BCA also I am passionate about DevOps.
             </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/nishi-tiwari-/" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/nishitiwari22" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/nishitiwari22" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://medium.com/@nishitiwari" target="_blank"><i class='bx bxl-blogger'></i></a>
+                <a href="nishit5195@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
             </div>
-        <div class="skills-box">
-          <ion-icon class="skills-icon" name="desktop-outline"></ion-icon>
-          <h3>Python</h3>
-          <p>
-            “It is not because things are difficult that we do not dare; it is
-            because we do not dare that they are difficult.”
-          </p>
+            <a href="https://drive.google.com/file/d/1M_Rz8RktlF-6dYAWUmgdCRUaxbaC0RT_/view?usp=sharing" target="_blank"
+                class="btn">Download Resume</a>
+            <a href="#contact" class="btn hire-btn">Hire Me</a>
         </div>
-      </div>
-      </div>
 
+        <div class="home-img">
+            <img src="images/lazy2.jpg" alt="Nishi Tiwari">
+        </div>
     </section>
 
-  <!-- <section>
-    <div class="container">
-      <div class="skills-stats">
-        <div class="trend-skills-stats">
-          <h3>Design</h3>
-          <div class="skills-progress-bar">
-            <span>80%</span>
-          </div>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/lazy1.jpg" alt="">
         </div>
-        <div class="skills-stats">
-          <h3>HTML</h3>
-          <div class="skills-progress-bar skills-progress-2">
-            <span>80%</span>
-          </div>
-        </div>
-        <div class="skills-stats">
-          <h3>CSS</h3>
-          <div class="skills-progress-bar skills-progress-3">
-            <span>70%</span>
-          </div>
-        </div>
-        <div class="skills-stats">
-          <h3>JavaScript</h3>
-          <div class="skills-progress-bar skills-progress-4">
-            <span>60%</span>
-          </div>
-        </div>
-        <div class="skills-stats">
-          <h3>REACT</h3>
-          <div class="skills-progress-bar skills-progress-5">
-            <span>10%</span>
-          </div>
-        </div>
-      </div> -->
-  
-      <!-- <div class="skills-data-btn">
-        <a href="https://drive.google.com/file/d/1vD_pIM24_j_fZXkYzEMShztar_EDWaSE/view?usp=sharing" class="btn"
-          download> Downlaod CV </a>
-      </div> -->
-    </div>
-  </div>
-  </div>
-</section>
-
-    
-
-  <!-- ======================================== 
-          work completed counter section Start  
-    ========================================  -->
-  <!-- 
-    <section class="section-work-data section ">
-      <div class="container grid grid-four-col">
-        <div>
-          <h2 data-number="2000" class="counter-numbers">0</h2>
-          <p>project completed</p>
-        </div>
-        <div>
-          <h2 data-number="6000" class="counter-numbers">0+</h2>
-          <p>Happy clients</p>
-        </div>
-        <div>
-          <h2 data-number="5000" class="counter-numbers">0+</h2>
-          <p>cups of coffee</p>
-        </div>
-        <div>
-          <h2 data-number="3000" class="counter-numbers">0+</h2>
-          <p>real professionals</p>
-        </div>
-      </div>
-    </section> -->
-
-
-  <!-- ======================================== 
-          Education Section Start  
-    ========================================  -->
- 
-    <!-- resume left side  -->
-
-    <!-- resume right side  -->
-    <section class="section-resume-data" section id="resume-section">
-      <div class="container">
-    <div class="resume-data">
-      <h2 class="common-heading">Resume</h2>
-      <p class="resume-para">my work experience</p>
-
-      <div class="resume-data-subsection">
-        <div class="resume-data-left">
-          <h3>Virtual Assistant for Authors</h3>
-          <div class="grid grid-two-col">
-            <p>
-              <ion-icon name="business-outline"></ion-icon> Fiverr
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <!-- <h3>FPassionate Web Developer who wants to explore every Tech Fields</h3> -->
+            <p>I am an aspiring <span>Front-end Web developer</span> with a strong foundation in <span>c++
+                    programming</span>, expertise in
+                <span>DSA</span>, <span>freelancing</span> and <span>technical content writing</span>
+                from Mumbai, Maharashtra, India.
             </p>
-            <p>
-              <ion-icon name="location-outline"></ion-icon> Mumbai, India
+            <p>Currently, I am pursuing a BCA degree in Computer Science and Engineering from Sharma College of
+                Mumbai.
+                With a deep-rooted passion for enhancing my coding skills, I am committed to building unique and
+                impactful projects while continually refining my skills.
             </p>
-          </div>
+            <a href="https://drive.google.com/file/d/1M_Rz8RktlF-6dYAWUmgdCRUaxbaC0RT_/view?usp=sharing" target="_blank"
+                class="btn">Donwload Resume</a>
         </div>
-        <div class="resume-data-right">
-          <p class="resume-data-button">partime</p>
-          <p>
-            <ion-icon name="calendar-outline"></ion-icon> <span>April 2019 - Present </span>
-          </p>
-        </div>
-      </div>
-      </div>
     </section>
 
-      <!-- 2nd work experience  -->
-      <!-- 3rd work experience  -->
-      <!-- 4th work experience  -->
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
 
-
-      <!-- Education section  -->
-      <section class="section-resume section " id="resume-section">
-        <div class="container">
-      <div class="resume-data-bottom-subsection">
-        <p class="resume-para">Education</p>
-
-        <!-- 1st college  -->
-        <div class="resume-data-subsection margin-small">
-          <div class="resume-data-left">
-            <h3>Bachelors in Computer Applications (BCA) SGPA: 7.56 </h3>
-            
-            <div class="grid grid-two-col">
-              <p>
-                <ion-icon name="business-outline"></ion-icon> Chandrabhan Sharma College
-              </p>
-              <p>
-                <ion-icon name="location-outline"></ion-icon> Mumbai, MH
-              </p>
-            </div>
-          </div>
-
-          <div class="resume-data-right">
-            <p class="resume-data-button"> Bachelors</p>
-            <p>
-              <ion-icon name="calendar-outline"></ion-icon> <span>May 2021 - 2024 </span>
-            </p>
-          </div>
-        </div>
-
-        <!-- 2nd college  -->
-        <div class="resume-data-subsection ">
-          <div class="resume-data-left">
-            <h3>11th and 12th (92.57%)</h3>
-            
-            <div class="grid grid-two-col">
-              <p>
-                <ion-icon name="business-outline"></ion-icon> SIES College of Arts, Science and Commerce 
-              </p>
-              <p>
-                <ion-icon name="location-outline"></ion-icon> Mumbai, MH
-              </p>
-            </div>
-          </div>
-
-          <div class="resume-data-right">
-            <p class="resume-data-button"> Secondary </p>
-            <p>
-              <ion-icon name="calendar-outline"></ion-icon> <span>May 2019 - 2021 </span>
-            </p>
-          </div>
-        </div>
-        <!-- end  -->
-      </div>
-    </div>
-    </div>
-  </div>
-
-  </section>
-
-
-
-  <!-- ======================================== 
-          Our Testimonial Section Start  
-    ========================================  -->
-
-  <!-- <section class="section section-testimonial ">
-    <div class="container">
-      <h2 class="common-heading">Reviews</h2>
-    </div>
-    Slider main container
-     Swiper
-    <div class="swiper mySwiper container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-
-
-          <div class="swiper-slide">
-
-            <div class="swiper-client-msg">
-              <p>Peter: Nishi did an excellent job. She took enough time to understand my job properly and responded to my individual wishes. The communication was exemplary. Thank you, my absolute recommendation for anyone looking for assistance as an author.
-              </p>
-            </div>
-            <div class="swiper-client-data grid grid-two-col ">
-              <figure>
-                <img src="images/clients/h.jpg" alt="">
-              </figure>
-              <div class="client-data-details">
-                <p>Nishi Tiwari</p>
-
-              </div>
-            </div>
-          </div>
-          slide end 
-
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- ======================================== 
-         freelancing Section   
-    ========================================  -->
-
-  <!-- <section class="section section-freelancer ">
-      <div class="overlay"></div>
-      <div class="container">
-      <h2 >I am <span> available </span> for freelancing</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum voluptates similique nulla vitae natus </p>
-      <a href="/contact.html" class="btn"> HIRE ME </a>
-      </div>
-    </section> -->
-
-  <!-- ======================================== 
-          Our  Cotnact Us Section   
-    ========================================  -->
-
-  <!-- <section class="section section-contact ">
-        <div class="container">
-          <h2 class="common-heading">contact us</h2>
-        </div>
-
-        <div class="section-contact-main contact-container">
-          <form action="https://formspree.io/f/xnqwzoro"
-  method="POST">
-             <div class=" grid grid-two-col"> -->
-  <!-- <input type="text" name="username" id="" required placeholder="Name">
-              <input type="email" name="email" required placeholder="Email" autocomplete="false">
-            </div>
-            <div>
-              <input type="text" name="subject" placeholder="Subject">
-            </div>
-             <div>
-               <textarea name="message" id="" placeholder="Message"></textarea>
-             </div>
-
-             <div>
-               <input type="submit" value="send message" class="btn">
-             </div>
-          </form>
-        </div> 
-      </section> -->
-
-  <!-- ======================================== 
-          Our footer Section   
-    ========================================  -->
-
-  <!-- <footer class="section section-footer " >
-      <div class="container grid grid-four-col">
-        <div class="f-about">
-          <h3>About</h3>
-          <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience. Hope you like it.</p>
-        </div>
-
-        <div class="f-links">
-           <h3>Links</h3>
-          <ul>
-            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a></li>
-             <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a></li>
-              <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">services</a></li>
-               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a></li>
-              
-                 <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a></li>
-          </ul>
-        </div>
-
-         <div class="f-services">
-            <h3>Services</h3>
-          <ul>
-            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web design</a></li>
-             <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web development</a></li>
-              <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Mern Project</a></li>
-           
-                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Online Classes</a></li>
-                 <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Youtube Course</a></li>
-          </ul>
-        </div>
-
-        <div class="f-address"> 
-          <h3>Have a Questions?</h3>
-          <address>
-            <div>
-              <p>  <span><ion-icon name="location-outline"></ion-icon></span> Pune, India </p>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-globe'></i>
+                <h3>Web Development</h3>
+                <p>I am a highly skilled in creating and troublshooting websites on Wix and creating the Frontend by using basic to indermediate Javascript concepts.
+                <a href="#portfolio" class="btn services-btn">My Projects</a>
             </div>
 
-            <div>
-              <p>  <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+91123456789"> +91 9874563215 </a></p>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>C++ - DSA</h3>
+                <p>I possess extensive experience and proficiency as a programmer in C++, have developed strong problem-solving capabilities. Additionally, my solid
+                    foundation in Data Structures and Algorithms enables me to optimize the efficiency and performance
+                    of my code.
+                </p>
+                <a href="https://leetcode.com/NishiTiwari5195/" target="blank" class="btn services-btn">My Coding
+                    Profile</a>
             </div>
 
-            <div>
-              <p>  <span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:test@thapa.com"> info@thapatechnical.com </a> </p>
+            <div class="services-box">
+                <i class='bx bxs-game'></i>
+                <h3>Freelancing - Virtual Assistance and Web Developer</h3>
+                <p>I am also well-versed in assisting authors to help them leverage thier sales, I have honed my skills in creating
+                    practical and staright forward marketing tatics. Also I have done web development
+                    with a creative mindset, incorporating captivating elements into my projects.
+                </p>
+                <a href="https://www.fiverr.com/nishi_22" target="blank" class="btn services-btn">Fiverr Profile</a>
             </div>
-          </address>
+
+            <div class="services-box">
+                <i class='bx bxs-edit-alt'></i>
+                <h3>Technical Content Writer</h3>
+                <p>I am adept at technical content writing, where I excel in effectively communicating complex concepts
+                    to a diverse audience. I possess the ability to break down intricate technical topics into easily
+                    understandable and engaging content, ensuring clarity and coherence.
+                </p>
+                <a href="https://medium.com/@nishitiwari" target="blank" class="btn services-btn">My Blog</a>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <div class="container">
-        <div class="f-social-icons">
-          <a href="https://www.instagram.com/thapatechnical/" target="_blank">
-            <ion-icon class="icons" name="logo-instagram"></ion-icon>
-          </a>
+    <!-- PROJECTS SECTION -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img class="project-img" src="images/food_store_project.png" alt="Restaurant Front-end website">
+                <div class="portfolio-layer">
+                    <h4>Restaurant Front-end website</h4>
+                    <p>Easy Front-end website used HTML, CSS & JS</p>
+                    <a href="https://github.com/nishitiwari22/foodsiteclone" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
-            <a href="https://discord.gg/MdScmCsua6" target="_blank">
-           <ion-icon class="icons" name="logo-discord"></ion-icon>
-          </a>
+            <div class="portfolio-box">
+                <img class="project-img" src="images/spotify_basic.png" alt="Spotify Clone">
+                <div class="portfolio-layer">
+                    <h4>Spotify Basic Project</h4>
+                    <p>Basic Music App Clone</p>
+                    <a href="https://github.com/nishitiwari22/spotify_clone" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
-            <a href="https://www.youtube.com/thapatechnical" target="_blank">
-           <ion-icon class="icons" name="logo-youtube"></ion-icon>
-          </a>
+            <div class="portfolio-box">
+                <img class="project-img" src="images/" alt="Think an amazing project for Sem 6">
+                <div class="portfolio-layer">
+                    <h4>Python Password generator</h4>
+                    <p>Password generator with Python</p>
+                    <a href="#" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="portfolio-box">
+                <img class="project-img" src="images/garbagegrabber.jpg" alt="Garbage Grabber">
+                <div class="portfolio-layer">
+                    <h4>Garbage Grabber</h4>
+                    <p>A garbage catcher game where you collect garbage and keep the city clean.</p>
+                    <a href="https://harshit-raj-14.github.io/Garbage-Grabber/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div> -->
+
+        
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="heading"><i class='bx bxs-contact'></i> Contact <span>Me</span></h2>
+
+        <form action="mailto:nishit5195@gmail.com" method="post" enctype="text/plain">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Made with ❤️ Nishi Tiwari </p>
         </div>
-
-        <div class="f-credits">
-          <p>Copyright ©2022 All rights reserved | This template is made with ❤ by Thapa Technical</p>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
-      </div>
+    </footer>
 
-    </footer> -->
-
-
-
-  <!-- ======================================== 
-          Our JavaScript Section   
-    ========================================  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
